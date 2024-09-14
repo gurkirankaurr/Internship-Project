@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Fusion</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <meta name="description" content="Style Fusion - The best place to buy clothes, watches, and shoes online.">
+    <meta name="keywords" content="Style Fusion, fashion, clothes, watches, shoes">
+
+</head>
+<body>
+
+    <header>
+        <h1>Style Fusion</h1>
+        <!-- or, if you're using a logo -->
+        
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="productview.html">Shop</a></li>
+            <li><a href="product.html">Categories</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="search.html">Search products</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="search-container">
+        <h2>Search Results for "Your Query"</h2>
+        <form class="search-form" action="search.html" method="GET">
+            <input type="text" name="query" placeholder="Search for products..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="search-results">
+            <!-- Example of one search result, you can dynamically generate more -->
+
+            <div class="search-result-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1b5DEddTU_xXTc6aMieJ0l8dLLcWDOX2uQ&s" alt="Watch 3">
+                <h3>Wrist Watch for Men</h3>
+                <p class="price">₹999</p>
+                <!-- <a href="product2.html" class="view-product-btn">View Product</a> -->
+            </div>
+
+            <div class="search-result-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1VfYuIbfj7NEG5kEfm6jdbXd4w64I9JhyBg&s" alt="Clothes 1">
+                <h3>Men's shirt</h3>
+                <p class="price">₹499</p>
+                <!-- <a href="product1.html" class="view-product-btn">View Product</a> -->
+            </div>
+
+            <div class="search-result-item">
+                <img src="https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024" alt="Sneaker 3">
+                <h3>Running Shoes</h3>
+                <p class="price">₹899</p>
+                <!-- <a href="product2.html" class="view-product-btn">View Product</a> -->
+            </div>
+            <!-- Add more product items dynamically as needed -->
+        </div>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Style Fusion. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
